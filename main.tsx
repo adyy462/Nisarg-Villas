@@ -1,3 +1,4 @@
+import React, { useState } from 'react'
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { 
   LayoutDashboard, Map, Users, FileText, Printer, Save, 
@@ -2108,4 +2109,10 @@ export default function App() {
       </div>
     </div>
   );
+}
+import { createRoot } from 'react-dom/client'
+
+const rootElement = document.getElementById('root')
+if (rootElement) {
+  createRoot(rootElement).render(<App />)
 }
