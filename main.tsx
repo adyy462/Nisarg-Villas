@@ -4,7 +4,7 @@ import {
   LayoutDashboard, Map, Users, FileText, Printer, Save, 
   X, Plus, IndianRupee, MapPin, Calculator, TrendingUp, CloudUpload, BarChart, CheckCircle, Wallet, Settings, RefreshCw, Wifi, WifiOff, FileUp, ExternalLink, Trash, FolderOpen, Image as ImageIcon
 } from 'lucide-react';
-
+import './index.css'
 // --- 1. CONFIGURATION CONSTANTS ---
 const HARDCODED_DRIVE_FOLDER_ID = "1bOykGLUzMKLR_CBMeACBuVoFJtLzLfpL";
 const HARDCODED_MAPS_FOLDER_ID = "1j---eVWj3O5c4a-FirCiSrXtWFBrpqRZ";
